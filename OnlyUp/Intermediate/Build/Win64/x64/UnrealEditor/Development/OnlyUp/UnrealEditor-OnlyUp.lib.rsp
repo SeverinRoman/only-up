@@ -1,0 +1,17 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-OnlyUp.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\OnlyUpEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlyUp\OnlyUp.init.gen.cpp.obj"
+"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlyUp\OnlyUpCharacter.gen.cpp.obj"
+"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlyUp\OnlyUpGameMode.gen.cpp.obj"
+"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlyUp\OnlyUp.cpp.obj"
+"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlyUp\OnlyUpCharacter.cpp.obj"
+"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlyUp\OnlyUpGameMode.cpp.obj"
+"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlyUp\Default.rc2.res"
+/OUT:"F:\ProgramFiles\GitHub\only-up\OnlyUp\Intermediate\Build\Win64\x64\UnrealEditor\Development\OnlyUp\UnrealEditor-OnlyUp.lib"

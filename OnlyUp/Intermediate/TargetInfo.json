@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "OnlyUp",
+			"Path": "..\\Source\\OnlyUp.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "OnlyUpEditor",
+			"Path": "..\\Source\\OnlyUpEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\programfiles\\github\\only-up\\onlyup\\intermediate\\build\\win64\\unrealeditor\\inc\\onlyup\\uht\\onlyupgamemode.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\programfiles\\github\\only-up\\onlyup\\intermediate\\build\\win64\\x64\\onlyupeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "f:\\programfiles\\github\\only-up\\onlyup\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\onlyup\\definitions.onlyup.h",
+            "f:\\programfiles\\github\\only-up\\onlyup\\source\\onlyup\\onlyupgamemode.h",
+            "f:\\programfiles\\unreal5\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\gameframework\\gamemodebase.h",
+            "f:\\programfiles\\unreal5\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\engine\\serverstatreplicator.h",
+            "f:\\programfiles\\unreal5\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\serverstatreplicator.generated.h",
+            "f:\\programfiles\\unreal5\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gamemodebase.generated.h",
+            "f:\\programfiles\\github\\only-up\\onlyup\\intermediate\\build\\win64\\unrealeditor\\inc\\onlyup\\uht\\onlyupgamemode.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}

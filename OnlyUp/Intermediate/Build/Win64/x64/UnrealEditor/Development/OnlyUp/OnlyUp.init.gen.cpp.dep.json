@@ -1,0 +1,13 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "f:\\programfiles\\github\\only-up\\onlyup\\intermediate\\build\\win64\\unrealeditor\\inc\\onlyup\\uht\\onlyup.init.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "f:\\programfiles\\github\\only-up\\onlyup\\intermediate\\build\\win64\\x64\\onlyupeditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "f:\\programfiles\\github\\only-up\\onlyup\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\onlyup\\definitions.onlyup.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
