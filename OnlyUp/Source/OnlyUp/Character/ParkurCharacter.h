@@ -3,14 +3,15 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "Base/OnlyUpCharacter.h"
+#include "Pawn/VICharacter.h"
 #include "ParkurCharacter.generated.h"
 
 /**
- *
+ * 
  */
 UCLASS()
-class ONLYUP_API AParkurCharacter : public AOnlyUpCharacter
+class ONLYUP_API AParkurCharacter : public AVICharacter
 {
 	GENERATED_BODY()
+	
 };
