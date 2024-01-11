@@ -4,7 +4,7 @@
 	DO NOT modify this manually! Edit the corresponding .h files instead!
 ===========================================================================*/
 
-// IWYU pragma: private, include "OnlyUpCharacter.h"
+// IWYU pragma: private, include "Character/Base/OnlyUpCharacter.h"
 #include "UObject/ObjectMacros.h"
 #include "UObject/ScriptMacros.h"
 
@@ -14,12 +14,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define ONLYUP_OnlyUpCharacter_generated_h
 
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_SPARSE_DATA
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_ACCESSORS
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_INCLASS_NO_PURE_DECLS \
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_SPARSE_DATA
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_ACCESSORS
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAOnlyUpCharacter(); \
 	friend struct Z_Construct_UClass_AOnlyUpCharacter_Statics; \
@@ -28,7 +28,7 @@ public: \
 	DECLARE_SERIALIZER(AOnlyUpCharacter)
 
 
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_ENHANCED_CONSTRUCTORS \
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AOnlyUpCharacter(AOnlyUpCharacter&&); \
@@ -40,17 +40,17 @@ public: \
 	NO_API virtual ~AOnlyUpCharacter();
 
 
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_18_PROLOG
-#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_GENERATED_BODY \
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_18_PROLOG
+#define FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_SPARSE_DATA \
-	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
-	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_ACCESSORS \
-	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_INCLASS_NO_PURE_DECLS \
-	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_21_ENHANCED_CONSTRUCTORS \
+	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_SPARSE_DATA \
+	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_EDITOR_ONLY_SPARSE_DATA_PROPERTY_ACCESSORS \
+	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_ACCESSORS \
+	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_INCLASS_NO_PURE_DECLS \
+	FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_21_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -58,7 +58,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> ONLYUP_API UClass* StaticClass<class AOnlyUpCharacter>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h
+#define CURRENT_FILE_ID FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

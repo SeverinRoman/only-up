@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "OnlyUp/OnlyUpCharacter.h"
+#include "OnlyUp/Character/Base/OnlyUpCharacter.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 // Cross Module References
@@ -68,8 +68,8 @@ void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AOnlyUpCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
-		{ "IncludePath", "OnlyUpCharacter.h" },
-		{ "ModuleRelativePath", "OnlyUpCharacter.h" },
+		{ "IncludePath", "Character/Base/OnlyUpCharacter.h" },
+		{ "ModuleRelativePath", "Character/Base/OnlyUpCharacter.h" },
 	};
 #endif
 #if WITH_METADATA
@@ -80,7 +80,7 @@ void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 		{ "Comment", "/** Camera boom positioning the camera behind the character */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "OnlyUpCharacter.h" },
+		{ "ModuleRelativePath", "Character/Base/OnlyUpCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Camera boom positioning the camera behind the character" },
 #endif
@@ -95,7 +95,7 @@ void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 		{ "Comment", "/** Follow camera */" },
 #endif
 		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "OnlyUpCharacter.h" },
+		{ "ModuleRelativePath", "Character/Base/OnlyUpCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Follow camera" },
 #endif
@@ -109,7 +109,7 @@ void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** MappingContext */" },
 #endif
-		{ "ModuleRelativePath", "OnlyUpCharacter.h" },
+		{ "ModuleRelativePath", "Character/Base/OnlyUpCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "MappingContext" },
 #endif
@@ -123,7 +123,7 @@ void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Jump Input Action */" },
 #endif
-		{ "ModuleRelativePath", "OnlyUpCharacter.h" },
+		{ "ModuleRelativePath", "Character/Base/OnlyUpCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Jump Input Action" },
 #endif
@@ -137,7 +137,7 @@ void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Move Input Action */" },
 #endif
-		{ "ModuleRelativePath", "OnlyUpCharacter.h" },
+		{ "ModuleRelativePath", "Character/Base/OnlyUpCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Move Input Action" },
 #endif
@@ -151,7 +151,7 @@ void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 #if !UE_BUILD_SHIPPING
 		{ "Comment", "/** Look Input Action */" },
 #endif
-		{ "ModuleRelativePath", "OnlyUpCharacter.h" },
+		{ "ModuleRelativePath", "Character/Base/OnlyUpCharacter.h" },
 #if !UE_BUILD_SHIPPING
 		{ "ToolTip", "Look Input Action" },
 #endif
@@ -199,15 +199,15 @@ void EmptyLinkFunctionForGeneratedCodeOnlyUpCharacter() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AOnlyUpCharacter);
 	AOnlyUpCharacter::~AOnlyUpCharacter() {}
-	struct Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_Statics
+	struct Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AOnlyUpCharacter, AOnlyUpCharacter::StaticClass, TEXT("AOnlyUpCharacter"), &Z_Registration_Info_UClass_AOnlyUpCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOnlyUpCharacter), 4245115824U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AOnlyUpCharacter, AOnlyUpCharacter::StaticClass, TEXT("AOnlyUpCharacter"), &Z_Registration_Info_UClass_AOnlyUpCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AOnlyUpCharacter), 453005941U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_776444541(TEXT("/Script/OnlyUp"),
-		Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_OnlyUpCharacter_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_1682029843(TEXT("/Script/OnlyUp"),
+		Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_GitHub_only_up_OnlyUp_Source_OnlyUp_Character_Base_OnlyUpCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -264,6 +264,54 @@
 		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
 	},
 	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\Character\\Base\\OnlyUpCharacter.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\Character\\Base\\OnlyUpCharacter.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\Character\\ParkurCharacter.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\Character\\ParkurCharacter.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\GameMode\\ParkurGameMode.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\GameMode\\ParkurGameMode.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
 		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUp.Build.cs",
 		"arguments": [
 			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
@@ -281,38 +329,6 @@
 	},
 	{
 		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUp.h",
-		"arguments": [
-			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
-		],
-		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUpCharacter.cpp",
-		"arguments": [
-			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
-		],
-		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUpCharacter.h",
-		"arguments": [
-			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
-		],
-		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUpGameMode.cpp",
-		"arguments": [
-			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
-			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
-		],
-		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
-	},
-	{
-		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUpGameMode.h",
 		"arguments": [
 			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
 			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
