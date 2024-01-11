@@ -1,0 +1,322 @@
+[
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\Animation\\VIAnimInstance.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\Animation\\VIAnimInstanceFP.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\Animation\\VIAnimNotifyState_FBIK.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\GAS\\GameplayAbility_Vault.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\GAS\\PlayMontageForMeshAndWait.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\GAS\\VIAbilitySystemComponent.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\GAS\\VIAssetManager.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\GAS\\VIGameplayAbility.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\Pawn\\VICharacter.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\Pawn\\VICharacterAbilityBase.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\Pawn\\VICharacterBase.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\Pawn\\VIPawnVaultComponent.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\VIBlueprintFunctionLibrary.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\VITypes.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Private\\VaultIt.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Animation\\VIAnimInstance.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Animation\\VIAnimInstanceFP.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Animation\\VIAnimNotifyState_FBIK.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Animation\\VIAnimationInterface.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\GAS\\GameplayAbility_Vault.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\GAS\\PlayMontageForMeshAndWait.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\GAS\\VIAbilitySystemComponent.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\GAS\\VIAssetManager.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\GAS\\VIGameplayAbility.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Pawn\\VICharacter.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Pawn\\VICharacterAbilityBase.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Pawn\\VICharacterBase.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Pawn\\VIPawnInterface.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\Pawn\\VIPawnVaultComponent.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\VIBlueprintFunctionLibrary.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\VITypes.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\Public\\VaultIt.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\VaultIt.Build.cs",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\VaultIt.24.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUp.Build.cs",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUp.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUp.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUpCharacter.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUpCharacter.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUpGameMode.cpp",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	},
+	{
+		"file": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUpGameMode.h",
+		"arguments": [
+			"F:\\ProgramFiles\\VisualStudio\\VC\\Tools\\MSVC\\14.36.32532\\bin\\Hostx64\\x64\\cl.exe",
+			"@F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\.vscode\\compileCommands_OnlyUp\\OnlyUp.1.rsp"
+		],
+		"directory": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Source"
+	}
+]

@@ -15,6 +15,7 @@
     <ProjectReference Include="..\..\..\..\..\..\..\Unreal5\UE_5.3\Engine\Source\Programs\UnrealBuildTool\UnrealBuildTool.csproj"><Private>false</Private></ProjectReference>
   </ItemGroup>
   <ItemGroup>
+  <Compile Include="..\..\..\..\Plugins\VaultIt\Source\VaultIt\VaultIt.Build.cs"><Link>Plugins\VaultIt\Source\VaultIt\VaultIt.Build.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\OnlyUp.Target.cs"><Link>Source\OnlyUp.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\OnlyUpEditor.Target.cs"><Link>Source\OnlyUpEditor.Target.cs</Link></Compile>
   <Compile Include="..\..\..\..\Source\OnlyUp\OnlyUp.Build.cs"><Link>Source\OnlyUp\OnlyUp.Build.cs</Link></Compile>

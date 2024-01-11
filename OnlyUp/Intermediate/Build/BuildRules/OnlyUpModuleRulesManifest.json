@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp\\OnlyUp.Build.cs",
+		"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Plugins\\VaultIt\\Source\\VaultIt\\VaultIt.Build.cs",
 		"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUp.Target.cs",
 		"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Source\\OnlyUpEditor.Target.cs"
 	],

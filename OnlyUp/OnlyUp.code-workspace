@@ -1,0 +1,1353 @@
+{
+	"folders": [
+		{
+			"name": "OnlyUp",
+			"path": "."
+		},
+		{
+			"name": "UE5",
+			"path": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+		}
+	],
+	"settings": {
+		"typescript.tsc.autoDetect": "off",
+		"npm.autoDetect": "off"
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cpptools",
+			"ms-dotnettools.csharp"
+		]
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"label": "OnlyUp Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Test",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Test",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Win64 Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Test",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Shipping",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Shipping",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Win64 Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Win64 Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Win64",
+					"Shipping",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Debug Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Debug",
+					"-ServerConfig=Debug",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android Debug Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Debug Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Debug",
+					"-ServerConfig=Debug",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android Debug Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Debug Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Debug",
+					"-ServerConfig=Debug",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUp Android Debug Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Android Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android DebugGame Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=DebugGame",
+					"-ServerConfig=DebugGame",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android DebugGame Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android DebugGame Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=DebugGame",
+					"-ServerConfig=DebugGame",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android DebugGame Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android DebugGame Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=DebugGame",
+					"-ServerConfig=DebugGame",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUp Android DebugGame Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Android DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Development Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Development",
+					"-ServerConfig=Development",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android Development Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Development Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Development",
+					"-ServerConfig=Development",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android Development Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Development Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Development",
+					"-ServerConfig=Development",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUp Android Development Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Android Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Test Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Test",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Test Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Test",
+					"-ServerConfig=Test",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android Test Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Test Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Test",
+					"-ServerConfig=Test",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android Test Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Test Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Test",
+					"-ServerConfig=Test",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUp Android Test Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Test Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Test",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Android Test Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Test Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Test",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Shipping Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Shipping",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Shipping Cook+Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Shipping",
+					"-ServerConfig=Shipping",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android Shipping Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Shipping Cook",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Shipping",
+					"-ServerConfig=Shipping",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-Cook"
+				],
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Build",
+					"OnlyUp Android Shipping Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Shipping Deploy",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\RunUAT.bat",
+				"args": [
+					"BuildCookRun",
+					"-ScriptsForProject=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-Project=F:/ProgramFiles/GitHub/only-up/OnlyUp/OnlyUp.uproject",
+					"-noP4",
+					"-ClientConfig=Shipping",
+					"-ServerConfig=Shipping",
+					"-NoCompileEditor",
+					"-utf8output",
+					"-Platform=Android",
+					"-TargetPlatform=Android",
+					"-ini:Game:[/Script/UnrealEd.ProjectPackagingSettings]:BlueprintNativizationMethod=Disabled",
+					"-Compressed",
+					"-IterativeCooking",
+					"-IterativeDeploy",
+					"-DeploySoToDevice",
+					"-SkipCook",
+					"-Stage",
+					"-Deploy"
+				],
+				"dependsOn": [
+					"OnlyUp Android Shipping Build"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Shipping Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Shipping",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUp Android Shipping Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUp Android Shipping Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUp",
+					"Android",
+					"Shipping",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 Debug Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 Debug Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUpEditor Win64 Debug Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 Debug Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"Debug",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 DebugGame Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 DebugGame Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUpEditor Win64 DebugGame Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 DebugGame Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"DebugGame",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 Development Build",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 Development Rebuild",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Build.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"dependsOn": [
+					"OnlyUpEditor Win64 Development Clean"
+				],
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"label": "OnlyUpEditor Win64 Development Clean",
+				"group": "build",
+				"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+				"args": [
+					"OnlyUpEditor",
+					"Win64",
+					"Development",
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-waitmutex"
+				],
+				"problemMatcher": "$msCompile",
+				"type": "shell",
+				"options": {
+					"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			}
+		]
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch OnlyUp (Debug)",
+				"request": "launch",
+				"program": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+				"preLaunchTask": "OnlyUp Win64 Debug Build",
+				"args": [
+				],
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch OnlyUp (DebugGame)",
+				"request": "launch",
+				"program": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+				"preLaunchTask": "OnlyUp Win64 DebugGame Build",
+				"args": [
+				],
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch OnlyUp (Development)",
+				"request": "launch",
+				"program": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Binaries\\Win64\\UnrealGame.exe",
+				"preLaunchTask": "OnlyUp Win64 Development Build",
+				"args": [
+				],
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch OnlyUp (Test)",
+				"request": "launch",
+				"program": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+				"preLaunchTask": "OnlyUp Win64 Test Build",
+				"args": [
+				],
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch OnlyUp (Shipping)",
+				"request": "launch",
+				"program": "F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+				"preLaunchTask": "OnlyUp Win64 Shipping Build",
+				"args": [
+				],
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch OnlyUpEditor (Debug)",
+				"request": "launch",
+				"program": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+				"preLaunchTask": "OnlyUpEditor Win64 Debug Build",
+				"args": [
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject"
+				],
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch OnlyUpEditor (DebugGame)",
+				"request": "launch",
+				"program": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+				"preLaunchTask": "OnlyUpEditor Win64 DebugGame Build",
+				"args": [
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject"
+				],
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"name": "Launch OnlyUpEditor (Development)",
+				"request": "launch",
+				"program": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+				"preLaunchTask": "OnlyUpEditor Win64 Development Build",
+				"args": [
+					"F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject"
+				],
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3",
+				"stopAtEntry": false,
+				"console": "externalTerminal",
+				"type": "cppvsdbg",
+				"visualizerFile": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+				"sourceFileMap": {
+					"D:\\build\\++UE5\\Sync": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+				}
+			},
+			{
+				"name": "Generate Project Files",
+				"type": "coreclr",
+				"request": "launch",
+				"preLaunchTask": "UnrealBuildTool Win64 Development Build",
+				"program": "F:\\ProgramFiles\\Unreal5\\UE_5.3\\Engine\\Build\\BatchFiles\\RunUBT.bat",
+				"args": [
+					"-projectfiles",
+					"-vscode",
+					"-project=F:\\ProgramFiles\\GitHub\\only-up\\OnlyUp\\OnlyUp.uproject",
+					"-game",
+					"-engine",
+					"-dotnet"
+				],
+				"console": "externalTerminal",
+				"stopAtEntry": false,
+				"cwd": "F:\\ProgramFiles\\Unreal5\\UE_5.3"
+			}
+		]
+	}
+}
